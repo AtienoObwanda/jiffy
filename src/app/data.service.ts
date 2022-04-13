@@ -10,8 +10,8 @@ export class DataService {
 
 
   getTrending(){
-    return this.http.get(`https://api.giphy.com/v1/gifs/search?api_key=jiffyApiKey&q=peace+for+ukraine&limit=1&offset=0&rating=g&lang=en
-
-    `)
+    return this.http.get(`https://api.giphy.com/v1/gifs/trending?api_key=fpNzP9W7ZjmAWuLdgCAxd9xVVeXltGqL&limit=50&rating=g`);
+    //return this.http.get(`https://api.giphy.com/v1/gifs/trending?
+    //api_key=%&{environment.giphyApiKey}&limit=50&rating=g`)
   }
 }

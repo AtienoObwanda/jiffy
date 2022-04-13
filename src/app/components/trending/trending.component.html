@@ -1,0 +1,11 @@
+<div class="container search">
+    <h1>TRENDING</h1>
+    <div class="gifs">
+        <div class="gif" *ngFor="let trendingGif of trendingGifs">
+
+            <img [src]="trendingGif.images.downsized.url" alt="">
+        </div>
+    </div>
+  
+</div>
+
