@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'My Soul', cursive;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #121212;
+
+}
