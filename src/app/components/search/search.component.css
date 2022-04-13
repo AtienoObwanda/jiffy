@@ -14,5 +14,13 @@
     background-color: #FEFFFE!important;
     height: 50px;
     margin-bottom: 10px;
-    border: #121212;
+    
 }
+.form{
+    font-family: inherit;
+    font-size: inherit;
+  }
+  img {
+    width: 100%;
+    max-width: 100%;
+  }

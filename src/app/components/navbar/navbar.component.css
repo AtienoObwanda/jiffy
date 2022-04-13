@@ -15,11 +15,15 @@
     vertical-align: middle;
 
 }
+/*
+.navbar img{ }
+*/
 .navbar a{
     font-weight: normal!important;
     color: #ffffff;
     margin-left: 20%;
     text-decoration: underline;
+    padding: 20px;
 }
 .navbar a :hover{
     background-color: blue;
