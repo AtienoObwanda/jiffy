@@ -2,21 +2,25 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {HttpClientModule} from '@angular/common/http';
+//import SearchIcon from '@mui/icons-material/Search';
+//import MoreVertIcon from '@mui/icons-material/MoreVert';
+//import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchComponent } from './components/search/search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BodyComponent } from './components/body/body.component';
 import { TrendingComponent } from './components/trending/trending.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     SearchComponent,
     BodyComponent,
-    TrendingComponent
+    TrendingComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

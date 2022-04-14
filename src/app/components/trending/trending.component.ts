@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { subscribeOn } from 'rxjs';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { subscribeOn, Subscription } from 'rxjs';
 import { DataService } from 'src/app/data.service';
 import { from, Observable } from 'rxjs';
 
@@ -11,18 +11,22 @@ import { from, Observable } from 'rxjs';
   templateUrl: './trending.component.html',
   styleUrls: ['./trending.component.css']
 })
-export class TrendingComponent implements OnInit {
+export class TrendingComponent implements OnInit, OnDestroy {
   trendingGifs:any[] =[];
+  subscription: Subscription = new Subscription;
 
   constructor(private dataService:DataService) { }
 
   ngOnInit(): void {
-    this.dataService.getTrending()
+   this.subscription= this.dataService.getTrending();
+    this.dataService.getGifs()
     .subscribe((response:any)=>{
-      //console.log('Data',response);
-      this.trendingGifs=response.data;
-
-    })
+    this.trendingGifs=response;
+    });
+    
+  }
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe
   }
 
 }

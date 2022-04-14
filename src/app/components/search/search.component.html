@@ -1,13 +1,6 @@
-<div class="container search">
-    <form class="form">
-        
-        <input id="search" type="search" placeholder="Search GIFs"/>
-       <!-- 
-           <button id="btnSearch">Go</button>
-        -->
-      </form>
-        <!--
-            <input type="text" placeholder="Search GIFs">
-         -->
-
+<div class="container search-container">
+        <input type="text" placeholder="Search GIFs" #gif (keyup.enter) = "search(gif.value)"/>
+        <div class='search-icon'>
+                icon
+        </div>
 </div>
