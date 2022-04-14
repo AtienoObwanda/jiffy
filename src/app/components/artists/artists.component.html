@@ -7,8 +7,9 @@
       <div class="trendingContainer">
 
         <div class="gifs row">
-            <div >
-                
+          <div class="gif" *ngFor="let giphyArtist of giphyArtists">
+            <img [src]="giphyArtist.images.downsized.url" alt="">
+
             </div>
         </div>
 

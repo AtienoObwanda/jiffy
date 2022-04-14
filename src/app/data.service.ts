@@ -17,12 +17,8 @@ export class DataService {
       this.gifs.next(response.data);
 
     });
-    
-    
-    
-    //return this.http.get(`https://api.giphy.com/v1/gifs/trending?
-    //api_key=%&{environment.giphyApiKey}&limit=50&rating=g`)
   }
+  
   searchGifs(gifName: string){
   //return this.http.get(`https://api.giphy.com/v1/gifs/search?q=&{gifName}&api_key=fpNzP9W7ZjmAWuLdgCAxd9xVVeXltGqL&limit=50`)
   return this.http.get(`https://api.giphy.com/v1/gifs/search?api_key=fpNzP9W7ZjmAWuLdgCAxd9xVVeXltGqL&q=gif&limit=50&offset=0&rating=g&lang=en`)
@@ -38,6 +34,11 @@ export class DataService {
   }
 
 
-
+getArtists(){
+  return this.http.get(`https://api.giphy.com/v1/gifs/artists?api_key=fpNzP9W7ZjmAWuLdgCAxd9xVVeXltGqL&limit=50&rating=g`)
+  .subscribe((response:any)=>{
+    this.gifs.next(response.data);
+  })
+}
 
 }
