@@ -13,6 +13,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BodyComponent } from './components/body/body.component';
 import { TrendingComponent } from './components/trending/trending.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ArtistsComponent } from './components/artists/artists.component';
+import { ClipsComponent } from './components/clips/clips.component';
+import { StoriesComponent } from './components/stories/stories.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     SearchComponent,
     BodyComponent,
     TrendingComponent,
-    NavbarComponent
+    NavbarComponent,
+    ArtistsComponent,
+    ClipsComponent,
+    StoriesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,22 @@
-<div class="container search">
-    <h1>TRENDING</h1>
-    <div class="gifs">
-        <div class="gif" *ngFor="let trendingGif of trendingGifs">
+<div class="container media">
+    <div class="row">
+      <div class="col-sm-12 rowHeader">
+        <img src="../../../assets/trending.svg" alt=""/>
+        <h1>Trending</h1>
+      </div>
+      <div class="trendingContainer">
 
-            <img [src]="trendingGif.images.downsized.url" alt="">
+        <div class="gifs row">
+            <div class="gif" *ngFor="let trendingGif of trendingGifs">
+                <img [src]="trendingGif.images.downsized.url" alt="">
+            </div>
         </div>
+
+      </div>
+
     </div>
+    
+    
   
 </div>
 
