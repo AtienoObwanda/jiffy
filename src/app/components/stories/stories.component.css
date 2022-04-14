@@ -1,0 +1,38 @@
+.media{
+    background-color: #121212;
+}
+
+
+.row{
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    }
+    .rowHeader{
+        display: flex;
+        margin-bottom: 8px;
+    }
+    .rowHeader img{
+        margin-right: 6px;
+    }
+    .rowHeader H1{
+        font-weight: 800;
+        font-size: 25px;
+        font-family: "Inter", sans-serif;
+        color: #fff; 
+    }
+    .trendingContainer{
+        overflow-y: hidden;
+        height: 300px;
+        display: flex;
+        overflow-x: auto;
+    }
+    .gif img{
+        height: 300px;
+        border-radius: 3px;
+        margin-right: 3px;
+        width: 250px;
+        padding-bottom: 1em!important;
+    }
+
