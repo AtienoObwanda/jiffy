@@ -1,22 +1,36 @@
-<div class="container media">
+<div class="container">
     <div class="row">
       <div class="col-sm-12 rowHeader">
         <img src="../../../assets/trending.svg" alt=""/>
         <h1>Trending</h1>
       </div>
-      <div class="trendingContainer">
 
-        <div class="gifs row">
+       <div class="container">
+        <div class=""> <!--trendingContainer-->
+          <div class="">
+            <div class="row">
+              <div class="col-md-2 gif" *ngFor="let trendingGif of trendingGifs">
+                  <img [src]="trendingGif.images.downsized.url" alt="">
+              </div>
+          </div>
+          </div>
+      </div>
+
+       </div>
+    
+  
+</div>
+
+<!-- 
+
+  <div class="row trendingContainer">
+          <div class="gifs">
             <div class="gif" *ngFor="let trendingGif of trendingGifs">
                 <img [src]="trendingGif.images.downsized.url" alt="">
             </div>
         </div>
 
+
       </div>
 
-    </div>
-    
-    
-  
-</div>
-
+-->
