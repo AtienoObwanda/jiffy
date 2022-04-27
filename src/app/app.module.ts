@@ -16,6 +16,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ArtistsComponent } from './components/artists/artists.component';
 import { ClipsComponent } from './components/clips/clips.component';
 import { StoriesComponent } from './components/stories/stories.component';
+import { UkraineComponent } from './components/ukraine/ukraine.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { StoriesComponent } from './components/stories/stories.component';
     NavbarComponent,
     ArtistsComponent,
     ClipsComponent,
-    StoriesComponent
+    StoriesComponent,
+    UkraineComponent
   ],
   imports: [
     BrowserModule,
