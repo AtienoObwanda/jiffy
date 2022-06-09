@@ -12,11 +12,11 @@ Giphy website replica built with angular.
 **How to use**</br>
 *From your terminal:* </br>
 ```js
-git clone git@github.com:AtienoObwanda/QuoteBoard.git
+git clone git@github.com:AtienoObwanda/Jiffy.git
 ```
 *Once the program has been cloned, run this on your terminal* </br>
 ```js
-    cd QuoteBoard
+    cd Jiffy
 ```
 *Depending on your code editor,run this on your terminal* </br>
 *VS Code*</br>
@@ -64,4 +64,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
  **License**</br>
 MIT License</br>
-Copyright (c) 2022 Quote Board
+Copyright (c) 2022 Jiffy
