@@ -1,6 +1,31 @@
 # Jiffy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+*Angular*
+****
+
+**How to use**
+*From your terminal:* </br>
+```js
+git clone git@github.com:AtienoObwanda/QuoteBoard.git
+```
+*Once the program has been cloned, run this on your terminal* </br>
+```js
+    cd QuoteBoard
+```
+*Depending on your code editor,run this on your terminal* </br>
+*VS Code*
+```js
+    code .
+```
+*Atom* 
+```js
+    atom .
+```
+*Next, download the latest dependencies for Angular, run npm install, then also add fontawesome as well as bootstrap:* </br>
+*To start the local server, run:*
+```js
+    ng serve --o
+```
 
 ## Development server
 
@@ -22,6 +47,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+****
+**Contact Information**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+*Incase of any question or contributions, you can contact me through:*
+ [Atieno Obwanda](https://github.com/AtienoObwanda) ||*atienoobwanda@gmail.com* </br>
+
+****
+
+ **License**
+MIT License
+Copyright (c) 2022 Quote Board
