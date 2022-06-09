@@ -1,7 +1,6 @@
-# Jiffy
-
-*Angular*
+**Jiffy**
 ****
+![Alt text](/src/assets/hero.png?raw=true "Optional Title")
 
 **How to use**
 *From your terminal:* </br>
