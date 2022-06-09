@@ -2,6 +2,13 @@
 ****
 ![Alt text](/src/assets/hero.png?raw=true "Optional Title")
 
+**Description**
+****
+Giphy website replica built with angular.
+
+**Author**
+*AtienoObwanda*
+
 **How to use**
 *From your terminal:* </br>
 ```js
