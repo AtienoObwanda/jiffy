@@ -7,9 +7,9 @@
 Giphy website replica built with angular.
 
 **Author**
-*AtienoObwanda*
+*AtienoObwanda*</br>
 
-**How to use**
+**How to use**</br>
 *From your terminal:* </br>
 ```js
 git clone git@github.com:AtienoObwanda/QuoteBoard.git
@@ -19,7 +19,7 @@ git clone git@github.com:AtienoObwanda/QuoteBoard.git
     cd QuoteBoard
 ```
 *Depending on your code editor,run this on your terminal* </br>
-*VS Code*
+*VS Code*</br>
 ```js
     code .
 ```
@@ -27,8 +27,9 @@ git clone git@github.com:AtienoObwanda/QuoteBoard.git
 ```js
     atom .
 ```
+</br>
 *Next, download the latest dependencies for Angular, run npm install, then also add fontawesome as well as bootstrap:* </br>
-*To start the local server, run:*
+*To start the local server, run:*</br>
 ```js
     ng serve --o
 ```
@@ -61,6 +62,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ****
 
- **License**
-MIT License
+ **License**</br>
+MIT License</br>
 Copyright (c) 2022 Quote Board
